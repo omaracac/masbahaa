@@ -38,12 +38,27 @@
          <div id="add">0</div>
 
          <div  onclick="reset()" id="reset"><i class="fas fa-undo-alt"></i></div>
-<div style="display: flex; justify-content: center; align-items: center; gap: 5px; margin:  0 auto; font-size: 18px; color: #a09797; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 5px; margin: 0 auto; font-size: 18px; color: #a09797; text-align: center;" id="footer">
   © جميع الحقوق محفوظة لدى 
   <a style="text-decoration: dashed; color: #0598b6;" href="mailto:moon.team.prog@gmail.com">
     MOON TEAM
   </a>
   <img src="./my.ico" width="30px" alt="logo" style="margin-left: 5px;" />
+</div>
+
+<style>
+  @media (max-width: 600px) {
+    #footer {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    #footer img {
+      width: 25px;
+    }
+  }
+</style>
+
 </div>
         </div>
       </div>
